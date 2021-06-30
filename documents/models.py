@@ -6,5 +6,6 @@ from django.db import models
 class User(models.model):
     first_name = models.CharField(max_length=250)
     last_name = models.CharField(max_length=250)
+    dob = models.CharField(max_length=250)
 
 
